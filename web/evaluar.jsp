@@ -11,12 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <style>
-            H1, body{
-                color:blue;
-                font-size: 20px;
-            }
-        </style>
+        
 
     </head>
     <body>
@@ -37,7 +32,7 @@
                 }
             }
             if (flag == false) {
-                out.print("USUARIO INCORRECTO");
+                out.print("<p style='color:#FF0000;'>USUARIO INCORRECTO</p>");
             }
 
 

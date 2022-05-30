@@ -14,8 +14,8 @@
     <body>
         <h1>STEVEN DELGADO</h1>
         <form action="evaluar.jsp">
-            Login<input type="text" name="txtLogin" value="" size="15" />
-            Pasword<input type="password" name="txtPass" value="" size="15" />
+            <input type="text" name="txtLogin" value="" size="15" placeholder="ingrese nombre"/>
+            <input type="password" name="txtPass" value="" size="15" placeholder="ingrese contraseña"/>
             <input type="submit" value="enviar" name="enviar" />
         </form>
     </body>
